@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<score>
+   <joueur>
+   	  <name>AXELLEMEILLEUR</name>
+      <score>100</score>
+   </joueur>
+<joueur>
+    <score>90</score>
+    <name>ANTOINE</name>
+  </joueur>
+<joueur>
+    <score>68</score>
+    <name>KEVIN</name>
+  </joueur>
+<joueur>
+    <score>89</score>
+    <name>CHARLES</name>
+  </joueur>
+<joueur>
+    <score>88</score>
+    <name>LOIC</name>
+  </joueur>
+<joueur>
+    <score>88</score>
+    <name>QUENTIN</name>
+  </joueur>
+<joueur>
+    <score>88</score>
+    <name>THOMAS</name>
+  </joueur>
+<joueur>
+    <score>88</score>
+    <name>THIBAUT</name>
+  </joueur>
+<joueur>
+    <score>88</score>
+    <name>ROMAIN</name>
+  </joueur>
+<joueur>
+    <score>90</score>
+    <name>MARION</name>
+  </joueur>
+<joueur>
+    <score>88</score>
+    <name>NICOLAS</name>
+  </joueur>
+<joueur>
+    <score>88</score>
+    <name>ALICE</name>
+  </joueur>
+</score>

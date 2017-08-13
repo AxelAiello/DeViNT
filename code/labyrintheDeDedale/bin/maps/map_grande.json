@@ -1,0 +1,473 @@
+[
+  {
+    "id": 0,
+    "state": "STANDARD",
+    "coordinate": [
+      2,
+      0
+    ],
+    "links": []
+  },
+  {
+    "id": 1,
+    "state": "START",
+    "coordinate": [
+      3,
+      0
+    ],
+    "links": [
+      {
+        "direction": "LeftRight",
+        "idRoom": 0
+      },
+      {
+        "direction": "RightLeft",
+        "idRoom": 2
+      },
+      {
+        "direction": "FrontBehind",
+        "idRoom": 4
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "state": "STANDARD",
+    "coordinate": [
+      4,
+      0
+    ],
+    "links": []
+  },
+  {
+    "id": 3,
+    "state": "STANDARD",
+    "coordinate": [
+      2,
+      1
+    ],
+    "links": []
+  },
+  {
+    "id": 4,
+    "state": "STANDARD",
+    "coordinate": [
+      3,
+      1
+    ],
+    "links": [
+      {
+        "direction": "LeftRight",
+        "idRoom": 3
+      },
+      {
+        "direction": "RightLeft",
+        "idRoom": 5
+      },
+      {
+        "direction": "FrontBehind",
+        "idRoom": 9
+      }
+    ],
+    "god": "CUPIDON1",
+    "goodDoor": "BLEUE"
+  },
+  {
+    "id": 5,
+    "state": "STANDARD",
+    "coordinate": [
+      4,
+      1
+    ],
+    "links": [
+      {
+        "direction": "RightLeft",
+        "idRoom": 6
+      },
+      {
+        "direction": "FrontBehind",
+        "idRoom": 10
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "state": "STANDARD",
+    "coordinate": [
+      5,
+      1
+    ],
+    "links": []
+  },
+  {
+    "id": 7,
+    "state": "STANDARD",
+    "coordinate": [
+      1,
+      2
+    ],
+    "links": [
+      {
+        "direction": "FrontBehind",
+        "idRoom": 13
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "state": "BLOCKED",
+    "coordinate": [
+      2,
+      2
+    ],
+    "links": [
+      {
+        "direction": "LeftRight",
+        "idRoom": 7
+      }
+    ],
+    "itemNeeded": "BATON"
+  },
+  {
+    "id": 9,
+    "state": "STANDARD",
+    "coordinate": [
+      3,
+      2
+    ],
+    "links": [
+      {
+        "direction": "LeftRight",
+        "idRoom": 8
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "state": "STANDARD",
+    "coordinate": [
+      4,
+      2
+    ],
+    "links": [],
+    "item": "BATON"
+  },
+  {
+    "id": 11,
+    "state": "STANDARD",
+    "coordinate": [
+      5,
+      2
+    ],
+    "links": [],
+    "item": "CORNE"
+  },
+  {
+    "id": 12,
+    "state": "STANDARD",
+    "coordinate": [
+      0,
+      3
+    ],
+    "links": [],
+    "item" : "LION"
+  },
+  {
+    "id": 13,
+    "state": "STANDARD",
+    "coordinate": [
+      1,
+      3
+    ],
+    "links": [
+      {
+        "direction": "LeftRight",
+        "idRoom": 12
+      },
+      {
+        "direction": "RightLeft",
+        "idRoom": 14
+      },
+      {
+        "direction": "FrontBehind",
+        "idRoom": 20
+      }
+    ],
+    "god": "CUPIDON2",
+    "goodDoor": "BLEUE"
+  },
+  {
+    "id": 14,
+    "state": "STANDARD",
+    "coordinate": [
+      2,
+      3
+    ],
+    "links": []
+  },
+  {
+    "id": 15,
+    "state": "STANDARD",
+    "coordinate": [
+      3,
+      3
+    ],
+    "links": []
+  },
+  {
+    "id": 16,
+    "state": "STANDARD",
+    "coordinate": [
+      4,
+      3
+    ],
+    "links": []
+  },
+  {
+    "id": 17,
+    "state": "STANDARD",
+    "coordinate": [
+      5,
+      3
+    ],
+    "links": [
+      {
+        "direction": "LeftRight",
+        "idRoom": 16
+      },
+      {
+        "direction": "RightLeft",
+        "idRoom": 18
+      },
+      {
+        "direction": "BehindFront",
+        "idRoom": 11
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "state": "STANDARD",
+    "coordinate": [
+      6,
+      3
+    ],
+    "links": []
+  },
+  {
+    "id": 19,
+    "state": "STANDARD",
+    "coordinate": [
+      0,
+      4
+    ],
+    "links": []
+  },
+  {
+    "id": 20,
+    "state": "STANDARD",
+    "coordinate": [
+      1,
+      4
+    ],
+    "links": [
+      {
+        "direction": "LeftRight",
+        "idRoom": 19
+      },
+      {
+        "direction": "RightLeft",
+        "idRoom": 21
+      },
+      {
+        "direction": "FrontBehind",
+        "idRoom": 26
+      }
+    ],
+    "god": "ZEUS3",
+    "goodDoor": "ROUGE"
+  },
+  {
+    "id": 21,
+    "state": "BLOCKED",
+    "coordinate": [
+      2,
+      4
+    ],
+    "links": [
+      {
+        "direction": "RightLeft",
+        "idRoom": 22
+      }
+    ],
+    "itemNeeded" : "LION"
+  },
+  {
+    "id": 22,
+    "state": "STANDARD",
+    "coordinate": [
+      3,
+      4
+    ],
+    "links": [
+      {
+        "direction": "BehindFront",
+        "idRoom": 15
+      },
+      {
+        "direction": "RightLeft",
+        "idRoom": 23
+      },
+      {
+        "direction": "FrontBehind",
+        "idRoom": 28
+      }
+    ],
+    "god": "CUPIDON3",
+    "goodDoor": "BLEUE"
+  },
+  {
+    "id": 23,
+    "state": "STANDARD",
+    "coordinate": [
+      4,
+      4
+    ],
+    "links": []
+  },
+  {
+    "id": 24,
+    "state": "STANDARD",
+    "coordinate": [
+      5,
+      4
+    ],
+    "links": [
+      {
+        "direction": "RightLeft",
+        "idRoom": 25
+      },
+      {
+        "direction": "BehindFront",
+        "idRoom": 17
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "state": "STANDARD",
+    "coordinate": [
+      6,
+      4
+    ],
+    "links": []
+  },
+  {
+    "id": 26,
+    "state": "STANDARD",
+    "coordinate": [
+      1,
+      5
+    ],
+    "links": []
+  },
+  {
+    "id": 27,
+    "state": "STANDARD",
+    "coordinate": [
+      2,
+      5
+    ],
+    "links": []
+  },
+  {
+    "id": 28,
+    "state": "STANDARD",
+    "coordinate": [
+      3,
+      5
+    ],
+    "links": [
+      {
+        "direction": "LeftRight",
+        "idRoom": 27
+      },
+      {
+        "direction": "RightLeft",
+        "idRoom": 29
+      },
+      {
+        "direction": "FrontBehind",
+        "idRoom": 31
+      }
+    ],
+    "god": "SOLDIER1",
+    "goodDoor": "ROUGE"
+  },
+  {
+    "id": 29,
+    "state": "STANDARD",
+    "coordinate": [
+      4,
+      5
+    ],
+    "links": [
+      {
+        "direction": "RightLeft",
+        "idRoom": 30
+      },
+      {
+        "direction": "FrontBehind",
+        "idRoom": 32
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "state": "BLOCKED",
+    "coordinate": [
+      5,
+      5
+    ],
+    "links": [
+      {
+        "direction": "BehindFront",
+        "idRoom": 24
+      }
+    ],
+    "itemNeeded": "FLECHE_B"
+  },
+  {
+    "id": 31,
+    "state": "STANDARD",
+    "coordinate": [
+      3,
+      6
+    ],
+    "links": [],
+    "item": "FLECHE_B"
+  },
+  {
+    "id": 32,
+    "state": "STANDARD",
+    "coordinate": [
+      4,
+      6
+    ],
+    "links": [
+      {
+        "direction": "RightLeft",
+        "idRoom": 33
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "state": "END",
+    "coordinate": [
+      5,
+      6
+    ],
+    "links": []
+  }
+]

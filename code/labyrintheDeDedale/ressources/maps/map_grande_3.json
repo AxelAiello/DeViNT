@@ -1,0 +1,451 @@
+[
+  {
+    "id": 0,
+    "state": "START",
+    "coordinate": [
+      0,
+      0
+    ],
+    "links": [
+      {
+        "direction": "RightLeft",
+        "idRoom": 1
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "state": "STANDARD",
+    "coordinate": [
+      1,
+      0
+    ],
+    "links": [
+      {
+        "direction": "FrontBehind",
+        "idRoom": 3
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "state": "STANDARD",
+    "coordinate": [
+      0,
+      1
+    ],
+    "links": []
+  },
+  {
+    "id": 3,
+    "state": "STANDARD",
+    "coordinate": [
+      1,
+      1
+    ],
+    "links": [
+      {
+        "direction": "LeftRight",
+        "idRoom": 2
+      },
+      {
+        "direction": "RightLeft",
+        "idRoom": 4
+      },
+      {
+        "direction": "FrontBehind",
+        "idRoom": 7
+      }
+    ],
+    "god": "APPOLON2",
+    "goodDoor": "ROUGE"
+  },
+  {
+    "id": 4,
+    "state": "STANDARD",
+    "coordinate": [
+      2,
+      1
+    ],
+    "links": [
+      {
+        "direction": "RightLeft",
+        "idRoom": 5
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "state": "STANDARD",
+    "coordinate": [
+      3,
+      1
+    ],
+    "links": [
+      {
+        "direction": "FrontBehind",
+        "idRoom": 9
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "state": "STANDARD",
+    "coordinate": [
+      5,
+      1
+    ],
+    "links": [],
+    "item" : "FLECHE_R"
+  },
+  {
+    "id": 7,
+    "state": "STANDARD",
+    "coordinate": [
+      1,
+      2
+    ],
+    "links": [
+      {
+        "direction": "FrontBehind",
+        "idRoom": 12
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "state": "STANDARD",
+    "coordinate": [
+      2,
+      2
+    ],
+    "links": []
+  },
+  {
+    "id": 9,
+    "state": "STANDARD",
+    "coordinate": [
+      3,
+      2
+    ],
+    "links": [
+      {
+        "direction": "LeftRight",
+        "idRoom": 8
+      },
+      {
+        "direction": "RightLeft",
+        "idRoom": 10
+      },
+      {
+        "direction": "FrontBehind",
+        "idRoom": 13
+      }
+    ],
+    "god": "POSEIDON4",
+    "goodDoor": "ROUGE"
+  },
+  {
+    "id": 10,
+    "state": "BLOCKED",
+    "coordinate": [
+      4,
+      2
+    ],
+    "links": [
+      {
+        "direction": "RightLeft",
+        "idRoom": 11
+      }
+    ],
+    "itemNeeded" : "FLECHE_B"
+  },
+  {
+    "id": 11,
+    "state": "STANDARD",
+    "coordinate": [
+      5,
+      2
+    ],
+    "links": [
+      {
+        "direction": "FrontBehind",
+        "idRoom": 15
+      },
+      {
+        "direction": "BehindFront",
+        "idRoom": 6
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "state": "STANDARD",
+    "coordinate": [
+      1,
+      3
+    ],
+    "links": [],
+    "item" : "FLECHE_B"
+  },
+  {
+    "id": 13,
+    "state": "STANDARD",
+    "coordinate": [
+      3,
+      3
+    ],
+    "links": []
+  },
+  {
+    "id": 14,
+    "state": "STANDARD",
+    "coordinate": [
+      4,
+      3
+    ],
+    "links": []
+  },
+  {
+    "id": 15,
+    "state": "STANDARD",
+    "coordinate": [
+      5,
+      3
+    ],
+    "links": [
+      {
+        "direction": "FrontBehind",
+        "idRoom": 21
+      },
+      {
+        "direction": "RightLeft",
+        "idRoom": 16
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "state": "STANDARD",
+    "coordinate": [
+      6,
+      3
+    ],
+    "links": []
+  },
+  {
+    "id": 17,
+    "state": "STANDARD",
+    "coordinate": [
+      0,
+      4
+    ],
+    "links": [],
+    "item" : "CORNE"
+  },
+  {
+    "id": 18,
+    "state": "STANDARD",
+    "coordinate": [
+      1,
+      4
+    ],
+    "links": [
+      {
+        "direction": "LeftRight",
+        "idRoom": 17
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "state": "STANDARD",
+    "coordinate": [
+      3,
+      4
+    ],
+    "links": [],
+    "item" : "FLECHE_V"
+  },
+  {
+    "id": 20,
+    "state": "STANDARD",
+    "coordinate": [
+      4,
+      4
+    ],
+    "links": [
+      {
+        "direction": "LeftRight",
+        "idRoom": 19
+      },
+      {
+        "direction": "FrontBehind",
+        "idRoom": 25
+      },
+      {
+        "direction": "BehindFront",
+        "idRoom": 14
+      }
+    ],
+    "god": "APHRODITE2",
+    "goodDoor": "BLEUE"
+  },
+  {
+    "id": 21,
+    "state": "STANDARD",
+    "coordinate": [
+      5,
+      4
+    ],
+    "links": [
+      {
+        "direction": "LeftRight",
+        "idRoom": 20
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "state": "STANDARD",
+    "coordinate": [
+      0,
+      5
+    ],
+    "links": []
+  },
+  {
+    "id": 23,
+    "state": "STANDARD",
+    "coordinate": [
+      1,
+      5
+    ],
+    "links": [
+      {
+        "direction": "LeftRight",
+        "idRoom": 22
+      },
+      {
+        "direction": "FrontBehind",
+        "idRoom": 27
+      },
+      {
+        "direction": "BehindFront",
+        "idRoom": 18
+      }
+    ],
+    "god": "POSEIDON5",
+    "goodDoor": "BLEUE"
+  },
+  {
+    "id": 24,
+    "state": "STANDARD",
+    "coordinate": [
+      2,
+      5
+    ],
+    "links": [
+      {
+        "direction": "LeftRight",
+        "idRoom": 23
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "state": "BLOCKED",
+    "coordinate": [
+      4,
+      5
+    ],
+    "links": [
+      {
+        "direction": "FrontBehind",
+        "idRoom": 30
+      }
+    ],
+    "itemNeeded" : "FLECHE_R"
+  },
+  {
+    "id": 26,
+    "state": "END",
+    "coordinate": [
+      0,
+      6
+    ],
+    "links": []
+  },
+  {
+    "id": 27,
+    "state": "STANDARD",
+    "coordinate": [
+      1,
+      6
+    ],
+    "links": [
+      {
+        "direction": "LeftRight",
+        "idRoom": 26
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "state": "BLOCKED",
+    "coordinate": [
+      2,
+      6
+    ],
+    "links": [
+      {
+        "direction": "BehindFront",
+        "idRoom": 24
+      }
+    ],
+    "itemNeeded" : "EPEE"
+  },
+  {
+    "id": 29,
+    "state": "STANDARD",
+    "coordinate": [
+      3,
+      6
+    ],
+    "links": [
+      {
+        "direction": "LeftRight",
+        "idRoom": 28
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "state": "BLOCKED",
+    "coordinate": [
+      4,
+      6
+    ],
+    "links": [
+      {
+        "direction": "LeftRight",
+        "idRoom": 29
+      },
+      {
+        "direction": "RightLeft",
+        "idRoom": 31
+      }
+    ],
+    "itemNeeded" : "FLECHE_V"
+  },
+  {
+    "id": 31,
+    "state": "STANDARD",
+    "coordinate": [
+      5,
+      6
+    ],
+    "links": [],
+    "item" : "EPEE"
+  }
+]

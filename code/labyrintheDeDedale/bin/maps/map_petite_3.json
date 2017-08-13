@@ -1,0 +1,167 @@
+[
+  {
+    "id": 0,
+    "state": "STANDARD",
+    "coordinate": [
+      0,
+      0
+    ],
+    "links": [],
+    "item" : "BATON"
+  },
+  {
+    "id": 1,
+    "state": "STANDARD",
+    "coordinate": [
+      1,
+      0
+    ],
+    "links": []
+  },
+  {
+    "id": 2,
+    "state": "STANDARD",
+    "coordinate": [
+      2,
+      0
+    ],
+    "links": [],
+    "item" : "CORNE"
+  },
+  {
+    "id": 3,
+    "state": "STANDARD",
+    "coordinate": [
+      3,
+      0
+    ],
+    "links": []
+  },
+  {
+    "id": 4,
+    "state": "STANDARD",
+    "coordinate": [
+      0,
+      1
+    ],
+    "links": [
+      {
+        "direction": "BehindFront",
+        "idRoom": 0
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "state": "STANDARD",
+    "coordinate": [
+      1,
+      1
+    ],
+    "links": [
+      {
+        "direction": "LeftRight",
+        "idRoom": 4
+      },
+      {
+        "direction": "RightLeft",
+        "idRoom": 6
+      },
+      {
+        "direction": "BehindFront",
+        "idRoom": 1
+      }
+    ],
+    "god": "SOLDIER3",
+    "goodDoor": "ROUGE"
+  },
+  {
+    "id": 6,
+    "state": "BLOCKED",
+    "coordinate": [
+      2,
+      1
+    ],
+    "links": [
+      {
+        "direction": "RightLeft",
+        "idRoom": 7
+      },
+      {
+        "direction": "BehindFront",
+        "idRoom": 2
+      }
+    ],
+    "itemNeeded" : "BATON"
+  },
+  {
+    "id": 7,
+    "state": "STANDARD",
+    "coordinate": [
+      3,
+      1
+    ],
+    "links": [
+      {
+        "direction": "FrontBehind",
+        "idRoom": 11
+      },
+      {
+        "direction": "RightLeft",
+        "idRoom": 8
+      },
+      {
+        "direction": "BehindFront",
+        "idRoom": 3
+      }
+    ],
+    "god": "CUPIDON1",
+    "goodDoor": "ROUGE"
+  },
+  {
+    "id": 8,
+    "state": "END",
+    "coordinate": [
+      4,
+      1
+    ],
+    "links": []
+  },
+  {
+    "id": 9,
+    "state": "STANDARD",
+    "coordinate": [
+      1,
+      2
+    ],
+    "links": [
+      {
+        "direction": "BehindFront",
+        "idRoom": 5
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "state": "START",
+    "coordinate": [
+      2,
+      2
+    ],
+    "links": [
+      {
+        "direction": "LeftRight",
+        "idRoom": 9
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "state": "STANDARD",
+    "coordinate": [
+      3,
+      2
+    ],
+    "links": []
+  }
+]

@@ -1,0 +1,151 @@
+[
+  {
+    "id": 0,
+    "state": "STANDARD",
+    "coordinate": [
+      1,
+      0
+    ],
+    "links": []
+  },
+  {
+    "id": 1,
+    "state": "STANDARD",
+    "coordinate": [
+      0,
+      1
+    ],
+    "links": []
+  },
+  {
+    "id": 2,
+    "state": "STANDARD",
+    "coordinate": [
+      1,
+      1
+    ],
+    "links": [
+      {
+        "direction": "BehindFront",
+        "idRoom": 0
+      },
+      {
+        "direction": "LeftRight",
+        "idRoom": 1
+      },
+      {
+        "direction": "FrontBehind",
+        "idRoom": 5
+      }
+    ],
+    "god" : "APPOLON1",
+    "goodDoor" : "BLEUE"
+  },
+  {
+    "id": 3,
+    "state": "START",
+    "coordinate": [
+      2,
+      1
+    ],
+    "links": [
+      {
+        "direction": "LeftRight",
+        "idRoom": 2
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "state": "STANDARD",
+    "coordinate": [
+      0,
+      2
+    ],
+    "links": []
+  },
+  {
+    "id": 5,
+    "state": "STANDARD",
+    "coordinate": [
+      1,
+      2
+    ],
+    "links": [
+      {
+        "direction": "LeftRight",
+        "idRoom": 4
+      },
+      {
+        "direction": "RightLeft",
+        "idRoom": 6
+      },
+      {
+        "direction": "FrontBehind",
+        "idRoom": 9
+      }
+    ],
+    "god" : "SOLDIER1",
+    "goodDoor" : "BLEUE"
+  },
+  {
+    "id": 6,
+    "state": "STANDARD",
+    "coordinate": [
+      2,
+      2
+    ],
+    "links": [
+      {
+        "direction": "FrontBehind",
+        "idRoom": 10
+      },
+      {
+        "direction": "RightLeft",
+        "idRoom": 7
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "state": "STANDARD",
+    "coordinate": [
+      3,
+      2
+    ],
+    "links": [],
+    "item" : "CORNE"
+  },
+  {
+    "id": 8,
+    "state": "END",
+    "coordinate": [
+      0,
+      3
+    ],
+    "links": []
+  },
+  {
+    "id": 9,
+    "state": "STANDARD",
+    "coordinate": [
+      1,
+      3
+    ],
+    "links": [
+      {
+        "direction": "LeftRight",
+        "idRoom": 8
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "state": "STANDARD",
+    "coordinate": [
+      2,
+      3
+    ],
+    "links": []
+  }
+]
