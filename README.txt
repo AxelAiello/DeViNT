@@ -1,12 +1,12 @@
 ﻿Pour compiler : 
-	- deplacer vous dans le dossier ./code/labyrintheDeDedale/bin/
-	- executer le fichier compilation.bat
+	- deplacez vous dans le dossier ./code/labyrintheDeDedale/bin/
+	- executez le fichier compilation.bat
 
 Pour executer : 
-	- deplacer vous dans le dossier ./code/labyrintheDeDedale/bin/
-	- executer le fichier execution.bat
+	- deplacez vous dans le dossier ./code/labyrintheDeDedale/bin/
+	- executez le fichier execution.bat
 
-Attention, l'application possède une aide vocal.
+Attention, l'application possède une aide vocale.
 Il vous est conseillé de régler correctement le son avant d'executer l'application !
 
-Toutes les spécifiactions sont décrites dans le fichier ./document/specifications.pdf
+Toutes les spécifications sont décrites dans le fichier ./documents/Specifications.pdf
