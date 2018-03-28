@@ -1,4 +1,4 @@
-#DeViNT
+# DeViNT
 
 Pour executer : 
 	- deplacez vous dans le dossier ./code/labyrintheDeDedale/bin/
