@@ -1,7 +1,3 @@
-﻿Pour compiler : 
-	- deplacez vous dans le dossier ./code/labyrintheDeDedale/bin/
-	- executez le fichier compilation.bat
-
 Pour executer : 
 	- deplacez vous dans le dossier ./code/labyrintheDeDedale/bin/
 	- executez le fichier execution.bat
